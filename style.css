@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    font-family: Besley, serif;
+  }
+
+.header {
+    background: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 300px;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+  }
+
